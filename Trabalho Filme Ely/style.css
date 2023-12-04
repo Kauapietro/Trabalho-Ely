@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #383838;
+    background-color: #ffffff;
+}
+
+header {
+    text-align: center;
+}
+
+input, button {
+    margin-bottom: 10px;
+}
+
+#movieImages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#movieImages img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
